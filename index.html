@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>stream house</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>welcome stream says <span class="brand">stream house</span></h1>
+
+  <div class="menu">
+    <button onclick="search()">Q (what to watch)</button>
+    <button>Join a watch party</button>
+    <button>Set up watch party</button>
+    <button>Surprise me</button>
+  </div>
+
+  <div id="searchBox" style="display: none;">
+    <input type="text" placeholder="Search title..." id="query" />
+    <button onclick="findMovie()">Search</button>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
